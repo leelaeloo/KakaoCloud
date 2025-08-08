@@ -1,0 +1,77 @@
+/* 페이지 전체 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 메뉴 박스 */
+.box {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* 헤더 스타일 */
+header {
+    text-align: center;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* 네비게이션 메뉴 */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 제목 스타일 */
+h2 {
+    color: darkblue;
+}
+
+/* 폼 스타일 */
+form label {
+    display: inline-block;
+    width: 120px;
+}
+
+form input, form textarea, form select {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* 버튼 스타일 */
+button {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+/* 테이블 스타일 */
+table {
+    margin-top: 10px;
+}
+
+table th {
+    background-color: #eee;
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
